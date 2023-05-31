@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer';
 export default function App() {
   const [currentView, setView] = useState('Home');
 
-  // function to change View (default needs to be main..)
+  // function to change View (default needs to be main....)
   const changeView = () => {
     if (currentView === 'Home') {
       return <Main />;
