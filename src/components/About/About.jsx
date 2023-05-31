@@ -10,22 +10,29 @@ export default function AboutMe() {
           id='about-container'
           className='row justify-content-center light-bg'
         >
-          <div className='col-8 d-block'>
+          <div id='about-card' className='col-8 d-block justify-content-center'>
             <motion.h2
               className='text-center section-headers cus-txt-white mt-5 mb-5'
-              initial={{ opacity: 0, y: '50px' }}
-              whileInView={{ opacity: 1, y: '0px' }}
+              initial={{ opacity: 0}}
+              whileInView={{ opacity: 1}}
               viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
             >
               About Me
             </motion.h2>
+            <div className="row justify-content-center">
+            <motion.img id='avatar' className='mb-5' src="src/assets/images/me.JPEG" alt="Photo of site author"
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }} />
+            </div>
             <motion.p
               className='text-center'
-              initial={{ opacity: 0, y: '10px' }}
-              whileInView={{ opacity: 1, y: '0px' }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
             >
               Like many developers, I discovered my interest in computers and
               coding while playing video games as a kid. I got my very first
