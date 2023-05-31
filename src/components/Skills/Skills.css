@@ -1,0 +1,10 @@
+#skill-container {
+    padding: 50px 0 300px 0;
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 600px){
+    #skill-list {
+        display: block!important;
+    }
+}

@@ -1,0 +1,118 @@
+.project-img {
+  width: 100%;
+}
+
+#p1-overlay {
+  margin-left: -100px;
+  margin-top: 60px;
+  height: fit-content;
+  width: 600px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+#p1-overlay:hover {
+  scale: 110%;
+  background-color: var(--col-dark) !important;
+  color: white;
+  margin-left: -180px;
+}
+
+#p2-overlay {
+  margin-right: -100px;
+  margin-top: 60px;
+  height: fit-content;
+  width: 600px;
+  padding: 10px;
+  transition: 0.4s;
+  z-index: 1;
+}
+
+#p2-overlay:hover {
+  scale: 110%;
+  background-color: var(--col-dark) !important;
+  color: white;
+  margin-right: -180px;
+}
+
+.project-btns {
+  border: 1px solid var(--col-red);
+  background-color: transparent;
+  color: var(--col-red);
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.project-btns:hover {
+  border-color: white;
+  background-color: white;
+  color: black;
+}
+
+.project-btns:active {
+  background-color: rgb(203, 203, 203);
+  border-color: rgb(203, 203, 203);
+}
+
+.github-svg {
+    width: 40px!important;
+    margin-left: 10px;
+    transition: 0.15s;
+}
+
+.github-svg:hover {
+    scale: 1.1;
+}
+
+.github-svg:active {
+    scale: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+  #project-container {
+    width: 95%;
+  }
+
+  #project-container img {
+    width: 200%;
+    margin: 0 auto;
+  }
+
+  #project-1 {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #p1-overlay {
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  #p1-overlay:hover {
+    margin-left: 0;
+  }
+
+  #project-2 {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  #p2-overlay {
+    width: 100%;
+    height: fit-content;
+    margin-top: 4px;
+  }
+
+  #project-3 {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .p-btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+}

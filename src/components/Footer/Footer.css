@@ -1,0 +1,119 @@
+#footer-container {
+    background-color: #464646;
+    height: 200px;
+    color: var(--col-light);
+}
+
+#footer-icons {
+    border-right: 2px solid rgba(255, 255, 255, 0.277);
+    height: 80%;
+}
+
+#footer-handles {
+    border-right: 2px solid rgba(255, 255, 255, 0.277);
+    height: 80%;
+    text-align: center;
+
+}
+
+#footer-btn {
+    border: 1px solid var(--col-light);
+    background-color: transparent;
+    color: var(--col-light);
+    padding: 5px;
+    width: 90%;
+    transition: 0.2s;
+}
+
+#footer-btn:hover {
+    background-color: white;
+    border-color: black;
+    color: var(--col-black);
+}
+
+#handles {
+    text-align: left;
+}
+
+.footer-nav {
+    background-color: transparent;
+    border: none;
+    color: var(--col-light);
+    transition: 0.3s;
+}
+
+.footer-nav a {
+    color: var(--col-light);
+    transition: 0.3s;
+}
+
+.footer-nav:hover {
+    scale: 1.1;
+    color: var(--col-light);
+}
+
+.footer-nav a:hover {
+    scale: 1.1;
+    color: var(--col-light);
+}
+
+.icon-links {
+    transition: 0.3s;
+}
+
+.icon-links:hover {
+    scale: 1.2;
+}
+
+.icon-links:active {
+    scale: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+
+    #footer-row {
+        display: block!important;
+        justify-content: center!important;
+    }
+
+    #footer-container {
+        display: block!important;
+        height: fit-content;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #footer-icons {
+        border-right: none;
+        display: block!important;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    .icon-links {
+        transition: 0.3s;
+        display: block!important;
+        border-right: none;
+    }
+
+    #footer-handles {
+        width: 100%;
+        margin: 40px auto;
+        padding-top: 20px;
+        border-right: none;
+    }
+
+    #handles {
+        text-align: center;
+    }
+
+    #footer-nav-container {
+        flex-direction: column;
+        justify-content: center!important;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px 0 50px 0;
+        gap: 5px;
+    }
+    
+}

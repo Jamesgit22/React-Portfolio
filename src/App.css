@@ -1,0 +1,84 @@
+* {
+    font-family: 'Poppins', sans-serif!important;
+    padding: 0;
+
+}
+
+:root {
+    --light-text: #ffffff;
+    --red-text: #db5461;
+    --col-light: #dcdcdc;
+    --col-dark: #464646;
+    --col-grey: #191919;
+    --col-red: #fd795f;
+    --col-black: #191919;
+}
+
+html, body { overflow-x: hidden!important; }
+
+#main-container {
+    background-color: var(--col-light);
+    padding: 0;
+}
+
+/* Custom Classes */
+
+.clear-bg {
+    background-color: transparent;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.dark-grey-bg {
+    background-color: gray;
+}
+
+.light-bg {
+    background-color: var(--col-light);
+}
+.cus-txt-dark {
+    color: var(--col-dark);
+}
+
+.cus-txt-darkgrey {
+    color: var(--col-dark);
+}
+
+.light-text {
+    color: var(--light-text);
+}
+
+.cus-txt-white {
+    color: white;
+}
+
+
+
+
+ul li {
+    transition: 0.1s;
+}
+
+ul li:hover {
+    scale: 115%;
+    
+}
+
+.section-headers {
+    border: 4px solid white;
+    width: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    #nav-bar {
+        justify-content: center!important;
+    }
+}
+    
