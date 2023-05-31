@@ -55,17 +55,17 @@
 }
 
 .github-svg {
-    width: 40px!important;
-    margin-left: 10px;
-    transition: 0.15s;
+  width: 40px !important;
+  margin-left: 10px;
+  transition: 0.15s;
 }
 
 .github-svg:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 .github-svg:active {
-    scale: 0.9;
+  scale: 0.9;
 }
 
 @media screen and (max-width: 600px) {

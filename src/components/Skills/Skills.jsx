@@ -7,10 +7,10 @@ export default function Skills() {
       <div id='skill-container' className='row justify-content-center'>
         <div className='col-8'>
           <motion.h2
-            initial={{ opacity: 0, y: '50px'}}
+            initial={{ opacity: 0, y: '50px' }}
             whileInView={{ opacity: 1, y: '0px' }}
             viewport={{ once: true }}
-            transition={ {duration: 0.8}}
+            transition={{ duration: 0.8 }}
             className='section-headers text-center mb-5 cus-txt-white'
           >
             Technologies
@@ -18,10 +18,10 @@ export default function Skills() {
           <motion.ul
             id='skill-list'
             className='d-flex justify-content-evenly list-unstyled cus-txt-white'
-            initial={{ opacity: 0, y: '50px'}}
+            initial={{ opacity: 0, y: '50px' }}
             whileInView={{ opacity: 1, y: '0px' }}
             viewport={{ once: true }}
-            transition={ {duration: 0.8}}
+            transition={{ duration: 0.8 }}
           >
             <li className='d-block text-center cus-txt-dark'>
               <img src='src/assets/images/react.png' alt='' /> React

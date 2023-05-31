@@ -1,110 +1,106 @@
 nav {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
-    background-color: transparent;
-    position: fixed;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
-    z-index: 2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  background-color: transparent;
+  position: fixed;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  z-index: 2;
 }
 
 nav button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    transition: 0.5s;
-
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 nav button:hover {
-    color: var(--col-grey)!important;
-    border-bottom: 2px solid var(--col-red);
-    scale: 1.1;
+  color: var(--col-grey) !important;
+  border-bottom: 2px solid var(--col-red);
+  scale: 1.1;
 }
 
 #nav-logo {
-    width: 50px;
+  width: 50px;
 }
 
 #mobile-nav {
-    display: block!important;
+  display: block !important;
 }
 
 #hamburger-icon {
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
 }
 
 .bars {
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
 #mobile-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
-    width: 100%;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
 }
 
 .open#mobile-menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
-    width: 100%;
-    background-color: #464646;
-    padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-color: #464646;
+  padding-top: 50px;
 }
 
-
 @media screen and (max-width: 600px) {
+  #desktop-nav {
+    display: none !important;
+  }
 
-    #desktop-nav {
-        display: none!important;
-    }
+  #mobile-nav {
+    display: flex !important;
+    justify-content: end !important;
+  }
 
-    #mobile-nav {
-        display: flex!important;
-        justify-content: end!important;
-    }
+  #hamburger-icon {
+    display: block;
+  }
 
-    
-    #hamburger-icon {
-        display: block;
-    }
+  .open.bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+    background-color: white;
+  }
 
-    .open.bar1 {
-        -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-        transform: rotate(-45deg) translate(-6px, 6px);
-        background-color: white;
-    }
+  .open.bar2 {
+    opacity: 0;
+  }
 
-    .open.bar2 {
-        opacity: 0;
-    }
-    
-    .open.bar3 {
-        -webkit-transform: rotate(45deg) translate(-6px, -8px);
-        transform: rotate(45deg) translate(-6px, -8px);
-        background-color: white;
-    }
+  .open.bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+    background-color: white;
+  }
 
-    nav button:hover {
-        color: white!important;
-        border-bottom: 2px solid var(--col-red);
-        scale: 1.1;
-    }
+  nav button:hover {
+    color: white !important;
+    border-bottom: 2px solid var(--col-red);
+    scale: 1.1;
+  }
 
-    nav {
-        background-color: #464646!important;
-    }
+  nav {
+    background-color: #464646 !important;
+  }
 }

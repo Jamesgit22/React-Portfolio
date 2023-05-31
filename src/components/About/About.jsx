@@ -13,19 +13,24 @@ export default function AboutMe() {
           <div id='about-card' className='col-8 d-block justify-content-center'>
             <motion.h2
               className='text-center section-headers cus-txt-white mt-5 mb-5'
-              initial={{ opacity: 0}}
-              whileInView={{ opacity: 1}}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.1 }}
             >
               About Me
             </motion.h2>
-            <div className="row justify-content-center">
-            <motion.img id='avatar' className='mb-5' src="src/assets/images/me.JPEG" alt="Photo of site author"
-            initial={{ opacity: 0}}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8, delay: 0.2 }} />
+            <div className='row justify-content-center'>
+              <motion.img
+                id='avatar'
+                className='mb-5'
+                src='src/assets/images/me.JPEG'
+                alt='Photo of site author'
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+              />
             </div>
             <motion.p
               className='text-center'
