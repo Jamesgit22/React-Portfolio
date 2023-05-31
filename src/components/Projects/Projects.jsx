@@ -137,19 +137,18 @@ export default function Projects() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  <h4 className='clear-bg'>Place Holder:</h4>
+                  <h4 className='clear-bg'>Code Quiz</h4>
                   <p className='clear-bg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Saepe obcaecati dolore, vero sed magni temporibus laudantium
-                    cum, eveniet a et ratione, modi repellat nisi eos atque
-                    labore corporis repellendus veritatis.
+                    Test your coding knowledge while playing against a clock in
+                    this code quiz! Save your highscores and play again until
+                    you have learned everything you can.
                   </p>
                   <div className='row'>
                     <div className='col-12 p-btns-container'>
-                      <a href='https://jamesgit22.github.io/Date-on-a-Dime/'>
+                      <a href='https://jamesgit22.github.io/coding-quiz-game/'>
                         <button className='project-btns'>Deployed App</button>
                       </a>
-                      <a href='https://github.com/Jamesgit22/Date-on-a-Dime'>
+                      <a href='https://github.com/Jamesgit22/coding-quiz-game'>
                         <img
                           className='github-svg'
                           src='src/assets/images/github.svg'
@@ -175,18 +174,17 @@ export default function Projects() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  <h4 className='clear-bg'>Date on a Dime:</h4>
+                  <h4 className='clear-bg'>Weather App</h4>
                   <p className='clear-bg'>
-                    No more wasting your day trying to decide what you are going
-                    instead of doing it! Date on a Dime helps user quickly
-                    choose a date or activity based off of the users input.
+                    An application to check the current weather and five day
+                    forecast.
                   </p>
                   <div className='row'>
                     <div className='col-12 p-btns-container'>
-                      <a href='https://jamesgit22.github.io/Date-on-a-Dime/'>
+                      <a href='https://jamesgit22.github.io/weather-dashboard/'>
                         <button className='project-btns'>Deployed App</button>
                       </a>
-                      <a href='https://github.com/Jamesgit22/Date-on-a-Dime'>
+                      <a href='https://github.com/Jamesgit22/weather-dashboard'>
                         <img
                           className='github-svg'
                           src='src/assets/images/github.svg'
@@ -199,7 +197,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img border border-dark'
-                    src='src/assets/images/projects/date.png'
+                    src='src/assets/images/weather1.png'
                     alt=''
                     initial={{ opacity: 0, x: '-300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -215,7 +213,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img'
-                    src='src/assets/images/projects/woodcutting.png'
+                    src='src/assets/images/note_taker.png'
                     alt=''
                     initial={{ opacity: 0, x: '300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -231,20 +229,14 @@ export default function Projects() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  <h4 className='clear-bg'>Lorem Idle:</h4>
-                  <p className='clear-bg'>
-                    This is a full stack REST afk RPG that allows the user to
-                    create a profile and begin collecting resources and
-                    experience to progress. As the name suggests, you are able
-                    to leave the browser and continue to collect resources while
-                    away but at a slower rate.
-                  </p>
+                  <h4 className='clear-bg'>Note Taker</h4>
+                  <p className='clear-bg'>A webapp to quickly make notes.</p>
                   <div className='row'>
                     <div className='col-12 p-btns-container'>
-                      <a href='https://warm-tundra-68123.herokuapp.com/'>
+                      <a href='https://hidden-badlands-10348.herokuapp.com/'>
                         <button className='project-btns'>Deployed App</button>
                       </a>
-                      <a href='https://github.com/Jamesgit22/lorem-idle'>
+                      <a href='https://github.com/Jamesgit22/Note-Taker'>
                         <img
                           className='github-svg'
                           src='src/assets/images/github.svg'
@@ -270,18 +262,16 @@ export default function Projects() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  <h4 className='clear-bg'>Date on a Dime:</h4>
+                  <h4 className='clear-bg'>Work Day Schedular:</h4>
                   <p className='clear-bg'>
-                    No more wasting your day trying to decide what you are going
-                    instead of doing it! Date on a Dime helps user quickly
-                    choose a date or activity based off of the users input.
+                    A webapp to help keep track of your workday agenda.
                   </p>
                   <div className='row'>
                     <div className='col-12 p-btns-container'>
-                      <a href='https://jamesgit22.github.io/Date-on-a-Dime/'>
+                      <a href='https://jamesgit22.github.io/work-day-scheduler/'>
                         <button className='project-btns'>Deployed App</button>
                       </a>
-                      <a href='https://github.com/Jamesgit22/Date-on-a-Dime'>
+                      <a href='https://github.com/Jamesgit22/work-day-scheduler'>
                         <img
                           className='github-svg'
                           src='src/assets/images/github.svg'
@@ -294,7 +284,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img border border-dark'
-                    src='src/assets/images/projects/date.png'
+                    src='src/assets/images/workDay.png'
                     alt=''
                     initial={{ opacity: 0, x: '-300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
