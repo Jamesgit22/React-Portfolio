@@ -23,7 +23,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img'
-                    src='src/assets/images/projects/woodcutting.png'
+                    src='public/images/woodcutting.png'
                     alt=''
                     initial={{ opacity: 0, x: '300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -55,7 +55,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/lorem-idle'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -92,7 +92,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/Date-on-a-Dime'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -102,7 +102,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img border border-dark'
-                    src='src/assets/images/projects/date.png'
+                    src='public/images/date.png'
                     alt=''
                     initial={{ opacity: 0, x: '-300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -121,7 +121,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img'
-                    src='src/assets/images/projects/quiz.png'
+                    src='public/images/quiz.png'
                     alt=''
                     initial={{ opacity: 0, x: '300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -151,7 +151,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/coding-quiz-game'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -187,7 +187,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/weather-dashboard'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -197,7 +197,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img border border-dark'
-                    src='src/assets/images/weather1.png'
+                    src='public/images/weather1.png'
                     alt=''
                     initial={{ opacity: 0, x: '-300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -213,7 +213,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img'
-                    src='src/assets/images/note_taker.png'
+                    src='public/images/note_taker.png'
                     alt=''
                     initial={{ opacity: 0, x: '300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}
@@ -239,7 +239,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/Note-Taker'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -274,7 +274,7 @@ export default function Projects() {
                       <a href='https://github.com/Jamesgit22/work-day-scheduler'>
                         <img
                           className='github-svg'
-                          src='src/assets/images/github.svg'
+                          src='public/images/github.svg'
                           alt='link to project'
                         />
                       </a>
@@ -284,7 +284,7 @@ export default function Projects() {
                 <div className='col-6 clear-bg'>
                   <motion.img
                     className='project-img border border-dark'
-                    src='src/assets/images/workDay.png'
+                    src='public/images/workDay.png'
                     alt=''
                     initial={{ opacity: 0, x: '-300px' }}
                     whileInView={{ opacity: 1, x: '0px' }}

@@ -60,7 +60,7 @@ export default function Splash() {
                 transition={{ duration: 2 }}
                 id='hero-logo'
                 className='clear-bg'
-                src='src/assets/images/logo.png'
+                src='public/images/logo.png'
                 alt=''
               />
             </div>
