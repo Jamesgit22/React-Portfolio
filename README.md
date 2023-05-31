@@ -30,15 +30,13 @@
 
   ## ScreenShots:
 
+  ![Alt text](src/assets/images/readme/splash.png)
 
   ![Alt text](src/assets/images/readme/skills.png)
 
-
   ![Alt text](src/assets/images/readme/projects.png)
 
-
   ![Alt text](src/assets/images/readme/contact.png)
-
 
   ![Alt text](src/assets/images/readme/mobile-view.png)
 
