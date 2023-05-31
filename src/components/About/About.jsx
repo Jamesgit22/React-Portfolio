@@ -24,7 +24,7 @@ export default function AboutMe() {
               <motion.img
                 id='avatar'
                 className='mb-5'
-                src='public/images/me.JPEG'
+                src='images/me.JPEG'
                 alt='Photo of site author'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

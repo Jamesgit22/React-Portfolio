@@ -13,19 +13,19 @@ function Footer({ view, handleViewChange }) {
               className='col-4 d-flex justify-content-evenly align-items-center align-self-center'
             >
               <a className='icon-links' href='https://github.com/Jamesgit22'>
-                <img src='public/images/github.png' alt='Github logo' />
+                <img src='images/github.png' alt='Github logo' />
               </a>
               <a
                 className='icon-links'
                 href='https://www.linkedin.com/in/james-schroeder-37aa5a270?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bwv6S%2FH5IQZCl4hqou6HYAg%3D%3D'
               >
                 <img
-                  src='public/images/linkedIn.png'
+                  src='images/linkedIn.png'
                   alt='linked in logo'
                 />
               </a>
               <a className='icon-links' href='mailto:jschroeder2296@gmail.com'>
-                <img src='public/images/email.png' alt='Email logo' />
+                <img src='images/email.png' alt='Email logo' />
               </a>
             </div>
             <div

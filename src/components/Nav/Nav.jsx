@@ -21,7 +21,7 @@ function NavBar({ view, handleViewChange }) {
             <img
               id='nav-logo'
               className='clear-bg'
-              src='public/images/logosmall.png'
+              src='images/logosmall.png'
               alt=''
             />
           </div>

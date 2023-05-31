@@ -24,25 +24,25 @@ export default function Skills() {
             transition={{ duration: 0.8 }}
           >
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/react.png' alt='' /> React
+              <img src='images/react.png' alt='' /> React
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/javascript.png' alt='' /> JavaScript
+              <img src='images/javascript.png' alt='' /> JavaScript
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/node.png' alt='' /> Node
+              <img src='images/node.png' alt='' /> Node
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/mongo.png' alt='' /> MongoDB
+              <img src='images/mongo.png' alt='' /> MongoDB
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/mysql.png' alt='' /> MySQL
+              <img src='images/mysql.png' alt='' /> MySQL
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/git.png' alt='' /> Git
+              <img src='images/git.png' alt='' /> Git
             </li>
             <li className='d-block text-center cus-txt-dark'>
-              <img src='public/images/css.png' alt='' /> CSS
+              <img src='images/css.png' alt='' /> CSS
             </li>
           </motion.ul>
         </div>
