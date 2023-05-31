@@ -17,9 +17,9 @@
 }
 
 #footer-btn {
-    border: 1px solid var(--col-light);
+    border: 1px solid #dcdcdc;
     background-color: transparent;
-    color: var(--col-light);
+    color: #dcdcdc;
     padding: 5px;
     width: 90%;
     transition: 0.2s;
@@ -33,17 +33,18 @@
 
 #handles {
     text-align: left;
+    color: #dcdcdc;
 }
 
 .footer-nav {
     background-color: transparent;
     border: none;
-    color: var(--col-light);
+    color: #dcdcdc;
     transition: 0.3s;
 }
 
 .footer-nav a {
-    color: var(--col-light);
+    color: #dcdcdc;
     transition: 0.3s;
 }
 

@@ -13,7 +13,7 @@
 
 #p1-overlay:hover {
   scale: 110%;
-  background-color: var(--col-dark) !important;
+  background-color: rgb(147, 147, 147) !important;
   color: white;
   margin-left: -180px;
 }
@@ -30,7 +30,7 @@
 
 #p2-overlay:hover {
   scale: 110%;
-  background-color: var(--col-dark) !important;
+  background-color: rgb(147, 147, 147) !important;
   color: white;
   margin-right: -180px;
 }

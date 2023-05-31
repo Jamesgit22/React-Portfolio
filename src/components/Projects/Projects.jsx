@@ -33,7 +33,7 @@ export default function Projects() {
                 </div>
                 <motion.div
                   id='p1-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}
@@ -72,7 +72,7 @@ export default function Projects() {
               >
                 <motion.div
                   id='p2-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}
@@ -131,7 +131,7 @@ export default function Projects() {
                 </div>
                 <motion.div
                   id='p1-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey overlay'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey overlay'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}

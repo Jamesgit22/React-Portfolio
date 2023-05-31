@@ -7,10 +7,10 @@
 :root {
     --light-text: #ffffff;
     --red-text: #db5461;
-    --col-light: #dcdcdc;
+    --col-light: #767676;
     --col-dark: #464646;
     --col-grey: #191919;
-    --col-red: #fd795f;
+    --col-red: #06d6a0;
     --col-black: #191919;
 }
 
@@ -32,7 +32,7 @@ html, body { overflow-x: hidden!important; }
 }
 
 .dark-grey-bg {
-    background-color: gray;
+    background-color: #464646;
 }
 
 .light-bg {
@@ -44,6 +44,10 @@ html, body { overflow-x: hidden!important; }
 
 .cus-txt-darkgrey {
     color: var(--col-dark);
+}
+
+.cus-txt-lightgrey {
+    color: #dcdcdc;
 }
 
 .light-text {
