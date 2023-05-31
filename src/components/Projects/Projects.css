@@ -13,7 +13,7 @@
 
 #p1-overlay:hover {
   scale: 110%;
-  background-color: var(--col-dark) !important;
+  background-color: rgb(147, 147, 147) !important;
   color: white;
   margin-left: -180px;
 }
@@ -30,7 +30,7 @@
 
 #p2-overlay:hover {
   scale: 110%;
-  background-color: var(--col-dark) !important;
+  background-color: rgb(147, 147, 147) !important;
   color: white;
   margin-right: -180px;
 }
@@ -55,17 +55,17 @@
 }
 
 .github-svg {
-    width: 40px!important;
-    margin-left: 10px;
-    transition: 0.15s;
+  width: 40px !important;
+  margin-left: 10px;
+  transition: 0.15s;
 }
 
 .github-svg:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
 .github-svg:active {
-    scale: 0.9;
+  scale: 0.9;
 }
 
 @media screen and (max-width: 600px) {

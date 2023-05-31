@@ -8,8 +8,8 @@ export default function ContactBanner({ currentMain, handleMainChange }) {
     <div className='container-fluid'>
       <motion.div
         className='row'
-        initial={{ x: '10px', width: '1%' }}
-        whileInView={{ x: '12px', width: '101%' }}
+        initial={{ x: '0px', width: '1%' }}
+        whileInView={{ x: '0px', width: '100vw' }}
         viewport={{ once: true }}
         transition={{ duration: 1.5 }}
       >

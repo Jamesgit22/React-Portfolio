@@ -33,7 +33,7 @@ export default function Projects() {
                 </div>
                 <motion.div
                   id='p1-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}
@@ -72,7 +72,7 @@ export default function Projects() {
               >
                 <motion.div
                   id='p2-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}
@@ -112,8 +112,8 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            {/* last project */}
-            <div className='row dark-grey-bg mb-5 mt-5'>
+            {/* Third project */}
+            <div className='row dark-grey-bg mt-5'>
               <div
                 id='project-3'
                 className='col-12 dark-grey-bg mb-5 d-flex mt-5'
@@ -131,25 +131,24 @@ export default function Projects() {
                 </div>
                 <motion.div
                   id='p1-overlay'
-                  className='light-bg rounded ps-4 cus-txt-darkgrey overlay'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey overlay'
                   initial={{ opacity: 0, y: '10px' }}
                   whileInView={{ opacity: 1, y: '0px' }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                  <h4 className='clear-bg'>Place Holder:</h4>
+                  <h4 className='clear-bg'>Code Quiz</h4>
                   <p className='clear-bg'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Saepe obcaecati dolore, vero sed magni temporibus laudantium
-                    cum, eveniet a et ratione, modi repellat nisi eos atque
-                    labore corporis repellendus veritatis.
+                    Test your coding knowledge while playing against a clock in
+                    this code quiz! Save your highscores and play again until
+                    you have learned everything you can.
                   </p>
                   <div className='row'>
                     <div className='col-12 p-btns-container'>
-                      <a href='https://jamesgit22.github.io/Date-on-a-Dime/'>
+                      <a href='https://jamesgit22.github.io/coding-quiz-game/'>
                         <button className='project-btns'>Deployed App</button>
                       </a>
-                      <a href='https://github.com/Jamesgit22/Date-on-a-Dime'>
+                      <a href='https://github.com/Jamesgit22/coding-quiz-game'>
                         <img
                           className='github-svg'
                           src='src/assets/images/github.svg'
@@ -159,6 +158,140 @@ export default function Projects() {
                     </div>
                   </div>
                 </motion.div>
+              </div>
+            </div>
+            {/* 4th Project */}
+            <div className='row dark-grey-bg mt-5'>
+              <div
+                id='project-2'
+                className='col-12 dark-grey-bg mt-5 d-flex justify-content-end'
+              >
+                <motion.div
+                  id='p2-overlay'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
+                  initial={{ opacity: 0, y: '10px' }}
+                  whileInView={{ opacity: 1, y: '0px' }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  <h4 className='clear-bg'>Weather App</h4>
+                  <p className='clear-bg'>
+                    An application to check the current weather and five day
+                    forecast.
+                  </p>
+                  <div className='row'>
+                    <div className='col-12 p-btns-container'>
+                      <a href='https://jamesgit22.github.io/weather-dashboard/'>
+                        <button className='project-btns'>Deployed App</button>
+                      </a>
+                      <a href='https://github.com/Jamesgit22/weather-dashboard'>
+                        <img
+                          className='github-svg'
+                          src='src/assets/images/github.svg'
+                          alt='link to project'
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+                <div className='col-6 clear-bg'>
+                  <motion.img
+                    className='project-img border border-dark'
+                    src='src/assets/images/weather1.png'
+                    alt=''
+                    initial={{ opacity: 0, x: '-300px' }}
+                    whileInView={{ opacity: 1, x: '0px' }}
+                    viewport={{ once: true }}
+                    transition={{ ease: 'easeOut', duration: 1 }}
+                  />
+                </div>
+              </div>
+            </div>
+            {/* 5th Project */}
+            <div className='row dark-grey-bg mt-5'>
+              <div id='project-1' className='col-12 dark-grey-bg d-flex mt-5'>
+                <div className='col-6 clear-bg'>
+                  <motion.img
+                    className='project-img'
+                    src='src/assets/images/note_taker.png'
+                    alt=''
+                    initial={{ opacity: 0, x: '300px' }}
+                    whileInView={{ opacity: 1, x: '0px' }}
+                    viewport={{ once: true }}
+                    transition={{ ease: 'easeOut', duration: 1 }}
+                  />
+                </div>
+                <motion.div
+                  id='p1-overlay'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
+                  initial={{ opacity: 0, y: '10px' }}
+                  whileInView={{ opacity: 1, y: '0px' }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  <h4 className='clear-bg'>Note Taker</h4>
+                  <p className='clear-bg'>A webapp to quickly make notes.</p>
+                  <div className='row'>
+                    <div className='col-12 p-btns-container'>
+                      <a href='https://hidden-badlands-10348.herokuapp.com/'>
+                        <button className='project-btns'>Deployed App</button>
+                      </a>
+                      <a href='https://github.com/Jamesgit22/Note-Taker'>
+                        <img
+                          className='github-svg'
+                          src='src/assets/images/github.svg'
+                          alt='link to project'
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+            {/* 6th Project */}
+            <div className='row dark-grey-bg mb-5 mt-5'>
+              <div
+                id='project-2'
+                className='col-12 dark-grey-bg mt-5 d-flex justify-content-end'
+              >
+                <motion.div
+                  id='p2-overlay'
+                  className='light-bg rounded ps-4 cus-txt-lightgrey'
+                  initial={{ opacity: 0, y: '10px' }}
+                  whileInView={{ opacity: 1, y: '0px' }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  <h4 className='clear-bg'>Work Day Schedular:</h4>
+                  <p className='clear-bg'>
+                    A webapp to help keep track of your workday agenda.
+                  </p>
+                  <div className='row'>
+                    <div className='col-12 p-btns-container'>
+                      <a href='https://jamesgit22.github.io/work-day-scheduler/'>
+                        <button className='project-btns'>Deployed App</button>
+                      </a>
+                      <a href='https://github.com/Jamesgit22/work-day-scheduler'>
+                        <img
+                          className='github-svg'
+                          src='src/assets/images/github.svg'
+                          alt='link to project'
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </motion.div>
+                <div className='col-6 clear-bg'>
+                  <motion.img
+                    className='project-img border border-dark'
+                    src='src/assets/images/workDay.png'
+                    alt=''
+                    initial={{ opacity: 0, x: '-300px' }}
+                    whileInView={{ opacity: 1, x: '0px' }}
+                    viewport={{ once: true }}
+                    transition={{ ease: 'easeOut', duration: 1 }}
+                  />
+                </div>
               </div>
             </div>
           </div>

@@ -1,31 +1,31 @@
 #contact-call {
-    background-color: var(--col-red);
-    padding: 60px 0;
-    margin-bottom: 200px!important;
+  background-color: var(--col-red);
+  padding: 60px 0;
+  margin-bottom: 200px !important;
 }
 
 #contact-call h2 {
-    font-size: 50px;
-    color: var(--light-text);
-    margin-bottom: 30px;
+  font-size: 50px;
+  color: var(--light-text);
+  margin-bottom: 30px;
 }
 
 #contact-call-btn {
-    background-color: transparent;
-    color: var(--light-text);
-    border: 1px solid var(--light-text);
-    font-size: 30px;
-    padding: 4px 20px;
-    transition: 0.3s;
+  background-color: transparent;
+  color: var(--light-text);
+  border: 1px solid var(--light-text);
+  font-size: 30px;
+  padding: 4px 20px;
+  transition: 0.3s;
 }
 
 #contact-call-btn:hover {
-    color: var(--col-red);
-    background-color: white;
-    border-color: white;
+  color: var(--col-red);
+  background-color: white;
+  border-color: white;
 }
 
 #contact-call-btn:active {
-    background-color: rgb(240, 240, 240);
-    scale: 0.9;
-} 
+  background-color: rgb(240, 240, 240);
+  scale: 0.9;
+}
