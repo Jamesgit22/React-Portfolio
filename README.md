@@ -2,7 +2,7 @@
 
   ![MIT Badge](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  ## [Live Site]()
+  ## [Live Site](https://jamesgit22.github.io/React-Portfolio/)
 
   ## Description:
         
@@ -30,15 +30,23 @@
 
   ## ScreenShots:
 
-  ![Alt text](src/assets/images/readme/splash.png)
+  <img width="320" alt="splash" src="https://github.com/Jamesgit22/React-Portfolio/assets/101075154/37296cb6-dc61-4920-8bde-55b3a855d321">
+  
+---
 
-  ![Alt text](src/assets/images/readme/skills.png)
+  <img width="320" alt="skills" src="https://github.com/Jamesgit22/React-Portfolio/assets/101075154/c68a9bad-6fd8-48ab-bf47-7244ed3d4a5b">
 
-  ![Alt text](src/assets/images/readme/projects.png)
+  ---
 
-  ![Alt text](src/assets/images/readme/contact.png)
+  <img width="320" alt="projects" src="https://github.com/Jamesgit22/React-Portfolio/assets/101075154/448387d0-8707-4a3d-91f2-bc3c836ec994">
 
-  ![Alt text](src/assets/images/readme/mobile-view.png)
+---
+
+  <img width="320" alt="contact" src="https://github.com/Jamesgit22/React-Portfolio/assets/101075154/cbd228c4-0086-4516-80a5-ba594a64814d">
+
+---
+ 
+<img width="224" alt="mobile-view" src="https://github.com/Jamesgit22/React-Portfolio/assets/101075154/4a5f769f-8545-4578-8693-70013c219c01">
 
   ---
 
@@ -59,18 +67,10 @@
   - [Responsive Navigation Bar with mobile menu Using HTML & CSS](https://www.youtube.com/watch?v=OjQP7rPwJyE)
   - [How to create a Mobile Menu in React](https://www.youtube.com/watch?v=smhpMQQmNRI&t=210s)
   
-
-  
-  
-  
   
   ## License:
   
   This project uses the [MIT](https://opensource.org/licenses/MIT) license.
-
-  ## Tests:
-
-  ---
   
   ## Questions:
 
